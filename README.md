@@ -20,9 +20,10 @@ I am currently working on a project where I am converting a Figma design into a 
 
 ## Skills and Expertise Required
 - React
-- Bootstrap
-- HTML
 - CSS
+- HTML
+- NODEJS
+- API
 
 ## Next Steps
 I am in the process of converting the Figma design into a React application. I am focusing on translating the design components, layout, and user interactions into functional React components. Once the trial demo is completed successfully, I will proceed with the full-time work on the project.
