@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Trust from './components/Trust';
 import GetStarted from './components/GetStarted';
 import Services from './components/Services';
+import Statistics from './components/Statistics';
 
 import './assets/styles/App.css'
 
@@ -18,6 +19,7 @@ function App() {
       <div className="line"></div>
       <GetStarted />
       <Services/>
+      <Statistics/>
       
 
       

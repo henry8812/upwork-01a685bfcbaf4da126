@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/CircularStd-Medium.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+.statsContainer {
+    background-color: var(--background, #fff);
+    padding: 40px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 0;
+    font-family: 'Circular Std', sans-serif;
+  }
+  
+  .statsValues {
+    width: 100%;
+    height: 278px;
+    flex-shrink: 0;
+    background: var(--para, #00142D);
+    display: flex;
+    justify-content: space-around; /* Centra los elementos y les da espacio entre sí */
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .stat-item {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    line-height: 1; /* Elimina el espacio adicional en el line-height */
+    width: 10%;
+  }
+  
+  .stat-item .label {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Circular Std', sans-serif;
+  }
+  
+  .value{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Circular Std', sans-serif;
+  }

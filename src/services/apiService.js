@@ -2,6 +2,7 @@
 import partners from '../db/partners'; // Ajusta la ruta si es necesario
 import intro from   '../db/intro';
 import services from '../db/services';
+import statistics from '../db/statistics';
 const apiService = {
   getTrustLogos: () => {
     // Simulamos la obtención de los datos de logotipos de confianza desde el archivo mockData
@@ -26,6 +27,11 @@ const apiService = {
         resolve(services)
     })
 
+  },
+  getStatistics : () => {
+    return new Promise( (resolve) => {
+        resolve(statistics)
+    })
   }
   
 

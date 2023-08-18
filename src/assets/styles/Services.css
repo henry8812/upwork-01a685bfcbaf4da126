@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 70%; /* Ancho del contenedor */
+  width: 80%; /* Ancho del contenedor */
   margin: 0 auto;
   font-family: 'Circular Std', sans-serif;
 }
@@ -42,7 +42,7 @@
 
 .service-card {
   width: 25%; /* Ancho de las tarjetas */
-  height: 250px; /* Alto fijo */
+  height: 270px; /* Alto fijo */
   flex-shrink: 0; /* No encoje */
   padding: 20px;
   text-align: center;
