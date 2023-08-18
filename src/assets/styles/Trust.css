@@ -1,0 +1,29 @@
+/* assets/styles/Trust.css */
+.trust {
+    position: relative;
+    height: 132px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background, #fff);
+  }
+  
+  .trust-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100%; /* Ajusta según tus necesidades */
+  }
+  
+  .trust-logos img {
+    max-height: 100%;
+    margin-right: 45px; /* Espacio de 30px entre cada imagen */
+  }
+  
+  .partnerLogo {
+    width: 100%;
+    filter: grayscale(100%);
+  }
+  

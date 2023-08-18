@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Circular Std';
+  src: url('../fonts/CircularStd-Medium.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+.servicesContainer {
+  background-color: var(--background, #fff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 70%; /* Ancho del contenedor */
+  margin: 0 auto;
+  font-family: 'Circular Std', sans-serif;
+}
+
+.servicesMain {
+  width: 60%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.servicesMain h2 {
+  font-size: 36px;
+  color: var(--main-color, #000);
+  margin-bottom: 16px;
+}
+
+.servicesMain p {
+  font-size: 18px;
+  color: var(--secondary-color, #707070);
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centrar horizontalmente */
+  margin-top: 40px;
+}
+
+.service-card {
+  width: 25%; /* Ancho de las tarjetas */
+  height: 250px; /* Alto fijo */
+  flex-shrink: 0; /* No encoje */
+  padding: 20px;
+  text-align: center;
+  margin: 10px; /* Espacio entre tarjetas */
+  position: relative;
+  border: 1px solid var(--bg, #B1BFC9); /* Agrega el borde */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.service-card .icon {
+  font-size: 36px;
+  margin: 0 auto; /* Centrar el icono horizontalmente */
+  color: var(--main-color, #000);
+}
+
+.service-card h3 {
+  font-size: 24px;
+  color: var(--main-color, #000);
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  font-size: 16px;
+  color: var(--secondary-color, #707070);
+  margin-bottom: 16px;
+}
+
+
+.service-card>img{
+  width: 20%;
+  margin: 0 auto;
+}
+
+.service-card a {
+  display: inline-block;
+  border: 1px solid var(--bg, #B1BFC9);
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.service-card a:hover {
+  background-color: #007bff;
+  color: white;
+}
