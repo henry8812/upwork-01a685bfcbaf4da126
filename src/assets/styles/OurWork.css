@@ -1,0 +1,164 @@
+.jobsContainer {
+    background: var(--para, #00142D);
+    min-height: 100px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.mainJobs {
+    color: white;
+    padding: 40px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 0;
+    font-family: 'Circular Std', sans-serif;
+}
+
+.mainJobs p {
+    font-size: 18px;
+    color: var(--secondary-color, #dedede);
+}
+
+.jobs {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(120px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.job-card {
+    width: 100%;
+    
+    
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    margin-top: 0; /* Restablecemos el margen superior para cada tarjeta */
+}
+
+/* Establece márgenes superiores diferentes para las tarjetas de nivel 1 y 3 */
+.job-card:nth-child(1),
+.job-card:nth-child(3),
+.job-card:nth-child(5),
+.job-card:nth-child(7),
+.job-card:nth-child(9),
+.job-card:nth-child(11)
+{
+    margin-top: 15px;
+}
+
+/* Establece márgenes superiores diferentes para las tarjetas de nivel 2 y 4 */
+.job-card:nth-child(2),
+.job-card:nth-child(4),
+.job-card:nth-child(6),
+.job-card:nth-child(8),
+.job-card:nth-child(10) {
+    margin-top: 40px;
+}
+
+.job-card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.job-card h3 {
+    font-size: 24px;
+    color: var(--main-color, #000);
+    margin: 10px;
+}
+
+.jobsContainer {
+    background: var(--para, #00142D);
+    min-height: 100px;
+    color: white;
+}
+
+.mainJobs {
+    color: white;
+    padding: 40px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 0;
+    font-family: 'Circular Std', sans-serif;
+}
+
+.mainJobs p {
+    font-size: 18px;
+    color: var(--secondary-color, #dedede);
+}
+
+.jobs {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(120px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.job-card {
+    width: 100%;
+    
+    
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    margin-top: 0; /* Restablecemos el margen superior para cada tarjeta */
+}
+
+/* Establece márgenes superiores diferentes para las tarjetas de nivel 1 y 3 */
+.job-card:nth-child(1),
+.job-card:nth-child(3),
+.job-card:nth-child(5),
+.job-card:nth-child(7) {
+    margin-top: 15px;
+}
+
+/* Establece márgenes superiores diferentes para las tarjetas de nivel 2 y 4 */
+.job-card:nth-child(2),
+.job-card:nth-child(4),
+.job-card:nth-child(6),
+.job-card:nth-child(8) {
+    margin-top: 40px;
+}
+
+.job-card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.job-card h3 {
+    font-size: 24px;
+    color: var(--main-color, #000);
+    margin: 10px;
+}
+
+.moreJobs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 180px; /* Ajustamos el ancho al 100% */
+    margin: 40px auto 0; /* Ajustamos el margen */
+    height: 39px;
+    color: white;
+    
+}

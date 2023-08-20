@@ -1,28 +1,14 @@
-// src/App.jsx
 import React from 'react';
-import Navbar from './components/Navbar'; // Ajusta la ruta si es necesario
-import Header from './components/Header';
-import Trust from './components/Trust';
-import GetStarted from './components/GetStarted';
-import Services from './components/Services';
-import Statistics from './components/Statistics';
-
-import './assets/styles/App.css'
+import Navbar from './components/Navbar';
+import Home from './components/Home'; // Importa el componente Home
+import './assets/styles/App.css';
 
 function App() {
   return (
     <div>
       <Navbar />
       <div className="line"></div>
-      <Header/>
-      <Trust/>
-      <div className="line"></div>
-      <GetStarted />
-      <Services/>
-      <Statistics/>
-      
-
-      
+      <Home /> {/* Llama al componente Home */}
       {/* Otros componentes */}
     </div>
   );

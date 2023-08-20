@@ -41,8 +41,8 @@
 }
 
 .service-card {
-  width: 25%; /* Ancho de las tarjetas */
-  height: 270px; /* Alto fijo */
+  width: 30%; /* Ancho de las tarjetas */
+  height: 300px; /* Alto fijo */
   flex-shrink: 0; /* No encoje */
   padding: 20px;
   text-align: center;

@@ -40,7 +40,8 @@ a:hover {
 img {
   width: 76.704px;
   height: 45px;
-  margin-right: 8px;
+  margin: auto 4px;
+  border: 15px #000;
 }
 
 button {
